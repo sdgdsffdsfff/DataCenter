@@ -1,4 +1,4 @@
-package com.incar;
+package com.incar.enums;
 
 
 public enum DataType {
@@ -12,9 +12,4 @@ public enum DataType {
     U_INT_32,   //无符号四字节整数，对应类型Long
     CHAR,       //定长字符串型，对应类型Char[],String，编码方式ASCII
     STRING      //变长字符串型，对应类型String。与CHAR的区别是末尾多一个字节0，而且可以设置字符集
-    /*
-    * 未配置情况下根据以下原则确定类型
-    * Byte------>BYTE
-    * Integer--->
-    * */
 }

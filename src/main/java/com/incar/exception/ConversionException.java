@@ -1,4 +1,4 @@
-package com.incar.test;
+package com.incar.exception;
 
 
 public class ConversionException extends RuntimeException{

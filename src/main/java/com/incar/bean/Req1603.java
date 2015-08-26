@@ -1,6 +1,6 @@
 package com.incar.bean;
 
-import com.incar.DataType;
+import com.incar.enums.DataType;
 import com.incar.convert.DataEntity;
 import com.incar.convert.DataMel;
 

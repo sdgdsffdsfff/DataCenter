@@ -1,5 +1,7 @@
-package com.incar.test;
+package com.incar.utils;
 
+
+import com.incar.exception.ConversionException;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;
@@ -227,11 +229,11 @@ public final class DataBuilder {
             throw new ConversionException("byte数组无法转换成字符串");
         }
         return a;
-    }
+    }/*
     public static void main(String[] args){
         DataBuilder db=DataBuilder.build();
         db.putString("你好0");
         String a=db.getString();
         System.out.println(a);
-    }
+    }*/
 }

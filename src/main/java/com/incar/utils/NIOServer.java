@@ -1,4 +1,4 @@
-package com.incar.test;
+package com.incar.utils;
 
 import org.apache.log4j.Logger;
 
@@ -125,12 +125,12 @@ public class NIOServer {
      * 启动服务端测试
      * @throws IOException
      */
-    public static void main(String[] args) throws IOException {
+    /*public static void main(String[] args) throws IOException {
         NIOServer server = new NIOServer();
         server.initServer(8000);
         server.listen();
 
-        /*String a="你好";
+        *//*String a="你好";
         byte[] b=a.getBytes("GBK");
         for(byte i:b){
             System.out.printf("%x",i);
@@ -138,7 +138,7 @@ public class NIOServer {
         }
 
         String c=new String(b,"GBK");
-        System.out.println(c);*/
-    }
+        System.out.println(c);*//*
+    }*/
 
 }

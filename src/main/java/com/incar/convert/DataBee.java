@@ -1,7 +1,7 @@
 package com.incar.convert;
 
 
-import com.incar.DataType;
+import com.incar.enums.DataType;
 
 import java.lang.reflect.Method;
 
